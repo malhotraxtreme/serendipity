@@ -1,3 +1,6 @@
+*{
+    color:black;
+}
 .navbar{
     background-image: linear-gradient(120deg, royalblue, dodgerblue,royalblue);
     margin: 0 0;
@@ -26,13 +29,12 @@ li.navtab{
     list-style: none;
     height: 100%;
     display: inline-block;
-    margin-left:30px;
     font-size: 2rem;
-    padding: 10px;
+    padding: 10px 25px;
     line-height: 100%;
     cursor: pointer;
     border-bottom: 1px solid transparent;
-    transition: color ease-out .2s;
+    transition: color ease-out .4s;
 }
 
 li.navtab:hover{
@@ -41,7 +43,7 @@ li.navtab:hover{
 
 .sumbmenuUl{
     display: none;
-    color:white;
+    color:black;
     z-index: 1;
     position: absolute;
     top:45px;
@@ -52,8 +54,53 @@ li.navtab:hover .sumbmenuUl{
     display: block;
 }
 
+.fa-caret-down{
+    transition: all ease .4s;
+}
+
+li.navtab:hover .fa-caret-down{
+    color:white;
+}
+
 .submenuhover{
     padding: 15px 20px;
     border-bottom: 1px dotted white;
+    transition: all ease .4s;
 }
 
+.submenuhover:hover{
+    color:white;
+}
+
+
+
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 70px;
+    background-image: linear-gradient(120deg, royalblue, dodgerblue,royalblue);
+}
+
+.footdiv{
+    text-align: center;
+    padding: 15px;
+}
+
+.socialicon{
+	padding: 1px 7px;
+	display: inline-block;
+	color:salmon;
+	font-size: 1.5rem;
+	transition: all 0.4s ease;
+	text-shadow: 0px 1px transparent;
+}
+.socialicon:hover{
+	color:red;
+	text-shadow: 0px 1px black;
+}
+
+.socialicon:visited{
+	color:salmon;
+}
