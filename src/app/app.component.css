@@ -1,5 +1,5 @@
 .navbar{
-    background-color: goldenrod;
+    background-image: linear-gradient(120deg, royalblue, dodgerblue,royalblue);
     margin: 0 0;
     width: 100%;
     display: inline-block;
@@ -32,8 +32,28 @@ li.navtab{
     line-height: 100%;
     cursor: pointer;
     border-bottom: 1px solid transparent;
+    transition: color ease-out .2s;
 }
 
 li.navtab:hover{
-border-bottom: 1px solid red;
+    color:white;
 }
+
+.sumbmenuUl{
+    display: none;
+    color:white;
+    z-index: 1;
+    position: absolute;
+    top:45px;
+    background-color: dodgerblue;
+}
+
+li.navtab:hover .sumbmenuUl{
+    display: block;
+}
+
+.submenuhover{
+    padding: 15px 20px;
+    border-bottom: 1px dotted white;
+}
+
