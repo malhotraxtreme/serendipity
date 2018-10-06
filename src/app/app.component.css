@@ -30,6 +30,7 @@ li.navtab{
     height: 100%;
     display: inline-block;
     font-size: 2rem;
+    font-family: 'Krub' , sans-serif;
     padding: 10px 25px;
     line-height: 100%;
     cursor: pointer;
@@ -72,9 +73,6 @@ li.navtab:hover .fa-caret-down{
     color:white;
 }
 
-
-
-
 .footer{
     position:absolute;
     bottom:0;
@@ -91,14 +89,12 @@ li.navtab:hover .fa-caret-down{
 .socialicon{
 	padding: 1px 7px;
 	display: inline-block;
-	color:salmon;
 	font-size: 1.5rem;
 	transition: all 0.4s ease;
 	text-shadow: 0px 1px transparent;
 }
 .socialicon:hover{
-	color:red;
-	text-shadow: 0px 1px black;
+	text-shadow: 0px 1px white;
 }
 
 .socialicon:visited{

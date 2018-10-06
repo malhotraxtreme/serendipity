@@ -3,10 +3,10 @@
     <ng-container class="slider" *ngFor = "let img of images; let i = index">
         <div *ngIf= "selected == i">
             <div class="toplayer">
-                <i class="fa fa-angle-left fa-2x" style="margin-top: 18%;margin-left: 5%;box-shadow: 4px 10px 30px;"(click) = "slideLeft(i)"></i>
-                <i class="fa fa-angle-right fa-2x" style="margin-top: 18%;margin-left: 80%;box-shadow: 4px 10px 30px;"  (click) = "slideRight(i)"></i>
+                <i class="fa fa-angle-left fa-2x slidernavgation" style="left:20px;" (click) = "slideLeft(i)"></i>
+                <i class="fa fa-angle-right fa-2x slidernavgation" style="right:20px;" (click) = "slideRight(i)"></i>
             </div>
-            <img [src]="img?.src" [alt] = "img?.alt"/>
+            <img [src]="img?.src" [alt] = "img?.alt" class="imgclass"/>
         </div>
 
     </ng-container>
