@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-// import { trigger, transition, } from '@angular/animations';
+import { interval } from 'rxjs';
+import { Subscription } from 'rxjs/internal/Subscription';
 
 @Component({
     selector:'image-slider',
@@ -13,7 +14,13 @@ export class ImageSliderComponent{
 
     public selected: number = 0;
 
+    private carouselSubscription: Subscription;
+
     constructor(){}
+
+    ngOnInit(){
+        this.carouselSubscription = interval(3000).subscribe(val => this.slideRight(this.selected))
+    }
 
     slideLeft(index: number){
         if(index == 0)
@@ -27,6 +34,10 @@ export class ImageSliderComponent{
             this.selected = 0;
         else
             this.selected = index+1;
+    }
+
+    ngOnDestroy(){
+        this.carouselSubscription.unsubscribe();
     }
 
     
