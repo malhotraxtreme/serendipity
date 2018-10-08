@@ -6,7 +6,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
-import { HomeContainer, ImageSliderComponent } from '../app-components';
+import { HomeContainer, ImageSliderComponent, AboutContainer, ProductsContainer } from '../app-components';
 import { AppService } from '../app-components/shared/services/app.service';
 
 @NgModule({
@@ -19,7 +19,8 @@ import { AppService } from '../app-components/shared/services/app.service';
   declarations: [
     AppComponent,
     HomeContainer,
-
+    AboutContainer,
+    ProductsContainer,
     ImageSliderComponent
   ],
   
