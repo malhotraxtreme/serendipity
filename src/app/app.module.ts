@@ -8,6 +8,7 @@ import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { HomeContainer, ImageSliderComponent, AboutContainer, ProductsContainer } from '../app-components';
 import { AppService } from '../app-components/shared/services/app.service';
+import { ContactComponent } from '../app-components/contact/contact.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { AppService } from '../app-components/shared/services/app.service';
     HomeContainer,
     AboutContainer,
     ProductsContainer,
-    ImageSliderComponent
+    ImageSliderComponent,
+    ContactComponent
   ],
   
   providers: [AppService],

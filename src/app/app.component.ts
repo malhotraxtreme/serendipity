@@ -17,4 +17,10 @@ export class AppComponent {
   productClick(){
     this.router.navigate(['products']);
   }
+  homeClick(){
+    this.router.navigate(['home']);
+  }
+  contactClick(){
+    this.router.navigate(['contact']);
+  }
 }

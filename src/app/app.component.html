@@ -2,8 +2,8 @@
   <nav class="navbar">
     <div class="brandlogo">BRAND AREA</div>
     <ul>
-      <li class="navtab">Home</li>
-      <li class="navtab hovermenu" (click)="productClick()">Our Services
+      <li class="navtab" (click)="homeClick()">Home</li>
+      <li class="navtab hovermenu" (click)="productClick()">Products
           <i class="fa fa-caret-down"></i>
         <div class="sumbmenuUl">
           <li class="submenuhover">Apparels</li>
@@ -11,7 +11,7 @@
           <li class="submenuhover">Lifestyle</li>
         </div>
       </li>
-      <li class="navtab">Contact</li>
+      <li class="navtab" (click)="contactClick()">Contact</li>
       <li class="navtab" (click)="aboutClick()">About</li>
     </ul>
   </nav>

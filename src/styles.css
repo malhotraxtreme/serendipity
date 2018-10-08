@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.pageheading{
+    display: inline-block;
+    padding: 0 40px 10px 11px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 10px;
+    border-bottom: 1px dashed dodgerblue;
+    font-family: 'Krub' , sans-serif;
+}
