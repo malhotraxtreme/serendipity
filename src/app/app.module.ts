@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { ContactComponent } from '../app-components/contact/contact.component';
 @NgModule({
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AngularFontAwesomeModule,
     HttpModule,
     RouterModule.forRoot(routes)
