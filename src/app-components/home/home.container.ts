@@ -5,7 +5,8 @@ import { Subscription } from 'rxjs/internal/Subscription';
 
 @Component({
     selector: 'home',
-    templateUrl: './home.container.html'
+    templateUrl: './home.container.html',
+    styleUrls: ['./home.container.css']
 })
 
 export class HomeContainer{

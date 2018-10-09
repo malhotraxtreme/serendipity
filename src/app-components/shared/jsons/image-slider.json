@@ -1,9 +1,9 @@
 {
   "images":[
-      {"src": "src/assets/images/img1.jpg", "alt":"First Image"},
-      {"src": "src/assets/images/img2.jpg", "alt":"Second Image"},
-      {"src": "src/assets/images/img3.jpg", "alt":"Third Image"},
-      {"src": "src/assets/images/img4.jpg", "alt":"Fourth Image"},
-      {"src": "src/assets/images/img5.jpg", "alt":"Fifth Image"}
+      {"src": "src/assets/images/carousel/img1.jpg", "alt":"First Image"},
+      {"src": "src/assets/images/carousel/img2.jpg", "alt":"Second Image"},
+      {"src": "src/assets/images/carousel/img3.jpg", "alt":"Third Image"},
+      {"src": "src/assets/images/carousel/img4.jpg", "alt":"Fourth Image"},
+      {"src": "src/assets/images/carousel/img5.jpg", "alt":"Fifth Image"}
     ]
 }
