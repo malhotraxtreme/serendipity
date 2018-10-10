@@ -18,7 +18,13 @@ import { trigger, state, transition, style, animate } from '@angular/animations'
         trigger('fade', [
             state('void',style({opacity:0})),
             transition(':enter',[
-                animate('1s 1s ease')
+                animate('500ms 1s ease')
+            ])
+        ]),
+        trigger('slidelater', [
+            state('void',style({opacity:0, top:'20px'})),
+            transition(':enter',[
+                animate('1200ms 2s ease')
             ])
         ])
     ]
