@@ -22,3 +22,61 @@
     font-weight: 500;
     text-align: center;
 }
+
+.regheading{
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+    font-size: 2.5em;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    color: white;
+    font-family: 'Krub' , sans-serif;
+}
+
+.regheading2{
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+    font-size: 4em;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    color: white;
+    font-family: 'Quicksand' , sans-serif;
+}
+
+.differencediv{
+    background: dodgerblue;
+    padding: 40px; 
+}
+
+.icocontainer{
+    padding:25px;
+}
+
+.iconsdiv{
+    background: dodgerblue;
+    border-radius: 10px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px dashed white;
+}
+
+.iconsdiv:hover,.iconsdiv:hover> *{
+    background: white;
+    color:dodgerblue;
+}
+
+.iconcss{
+    font-size: 8em;
+    color: white;
+}
+
+.icoheading{
+    text-align: center;
+    display: block;
+    font-size: 1.7em;
+    letter-spacing: 4px;
+    color: white;
+    font-family: 'Quicksand' , sans-serif;
+}
