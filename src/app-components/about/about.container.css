@@ -1,0 +1,13 @@
+.about-container{
+    height: 450px;
+}
+
+.about-image{
+    width: 50%;
+    margin-bottom: 177px;
+}
+
+.about-services{
+    width: 50%; 
+    display: inline-block;
+}
