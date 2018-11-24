@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
-import { HomeContainer, ImageSliderComponent, AboutContainer, ProductsContainer } from '../app-components';
+import { HomeContainer, ImageSliderComponent, AboutContainer, ProductsContainer, LifestyleComponent, ApparelsComponent, AppliancesComponent } from '../app-components';
 import { AppService } from '../app-components/shared/services/app.service';
 import { ContactComponent } from '../app-components/contact/contact.component';
 
@@ -25,7 +25,10 @@ import { ContactComponent } from '../app-components/contact/contact.component';
     AboutContainer,
     ProductsContainer,
     ImageSliderComponent,
-    ContactComponent
+    ContactComponent,
+    LifestyleComponent,
+    AppliancesComponent,
+    ApparelsComponent
   ],
   
   providers: [AppService],

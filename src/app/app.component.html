@@ -3,12 +3,12 @@
     <div class="brandlogo">BRAND AREA</div>
     <ul>
       <li class="navtab" (click)="homeClick()">Home</li>
-      <li class="navtab hovermenu" (click)="productClick()">Products
+      <li class="navtab hovermenu">Products
           <i class="fa fa-caret-down"></i>
         <div class="sumbmenuUl">
-          <li class="submenuhover">Apparels</li>
-          <li class="submenuhover">Appliances</li>
-          <li class="submenuhover">Lifestyle</li>
+          <li class="submenuhover" (click)="router.navigate(['products/apparels'])">Apparels</li>
+          <li class="submenuhover" (click)="router.navigate(['products/appliances'])">Appliances</li>
+          <li class="submenuhover" (click)="router.navigate(['products/lifestyle'])">Lifestyle</li>
         </div>
       </li>
       <li class="navtab" (click)="contactClick()">Contact</li>

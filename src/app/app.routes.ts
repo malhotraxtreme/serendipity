@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { HomeContainer, AboutContainer, ProductsContainer, ContactComponent } from '../app-components';
+import { HomeContainer, AboutContainer, ProductsContainer, ContactComponent, LifestyleComponent, ApparelsComponent, AppliancesComponent } from '../app-components';
 
 export const routes: Routes = [
     {
@@ -20,7 +20,21 @@ export const routes: Routes = [
             },
             {
                 path:'products',
-                component: ProductsContainer
+                // component: ProductsContainer,
+                children: [
+                    {
+                        path: 'apparels',
+                        component: ApparelsComponent
+                    },
+                    {
+                        path: 'appliances',
+                        component: AppliancesComponent
+                    },
+                    {
+                        path: 'lifestyle',
+                        component: LifestyleComponent
+                    }
+                ]
             },
             {
                 path:'contact',
