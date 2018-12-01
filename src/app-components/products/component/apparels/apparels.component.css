@@ -1,0 +1,9 @@
+.repeaterbox{
+    border: 2px dotted red;
+    height: 150px;
+    padding:10px;
+}
+
+.outerbox{
+    margin: 20px 0; 
+}

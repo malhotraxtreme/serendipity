@@ -1,7 +1,12 @@
 
 .about-services{
-    width: 50%; 
+    width: 60%; 
     display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6em;
+    text-align: left;
+    padding-bottom: 50px;
+    color:white;
 }
 
 .aboutsplash{
@@ -11,10 +16,30 @@
 }
 
 .colhead{
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
     font-family: 'Krub' , sans-serif;
     font-style: italic;
+}
+
+.seconddiv{
+    background: dodgerblue;
+}
+
+.spaceddiv{
+    margin-top: 30px; 
+}
+
+.extraspaceddiv{
+    margin: 50px auto; 
+}
+
+.rowhead{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Quicksand' , sans-serif;
+    color:white;
 }
